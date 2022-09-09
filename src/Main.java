@@ -3,5 +3,7 @@ public class Main {
         SuperGreeter sg = new SuperGreeter();
         sg.start();
         sg.greet();
+        System.out.println(sg.askAboutAge());
+
     }
 }
